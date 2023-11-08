@@ -151,3 +151,39 @@ header {
     }
 }
 /* fin Ventana popup*/
+
+/* barra nav*/
+.navegador{
+    height: 156px;
+    background-color: #333;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 110px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: rgb(9, 68, 170);
+  }
+/*fin barra nav*/
