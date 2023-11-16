@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
 }
 body{
     background: #efefef;
@@ -15,6 +17,7 @@ header {
     padding: 55px;
     box-sizing: border-box;
     color: rgb(18,47,96);
+    font-family: 'Josefin Sans', sans-serif;
 }
 /*Cosas Header*/
 .header-icon {
@@ -154,6 +157,7 @@ header {
 
 /* barra nav*/
 .navegador{
+    font-family: sans-serif ;
     height: 156px;
     background-color: #333;
 }
@@ -187,3 +191,60 @@ ul {
     background-color: rgb(9, 68, 170);
   }
 /*fin barra nav*/
+
+/*cartas*/
+.contenedorcartasprincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cartaprincipal{
+    background-color: rgb(18,47,96);
+    height: 270px ;
+    width: 270px;
+    margin-right: 20px;
+    margin-top: 30px;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    vertical-align: center;
+    line-height: 270px;
+}
+.cartaprincipal:hover{
+    transform:scale(1.1);
+    box-shadow: 0 0 10px rgb(3, 17, 43);
+}
+.cartaprincipalpasteleria{
+    background-color: rgb(18,47,96);
+    font-family: 'Pacifico', cursive;
+    height: 270px ;
+    width: 270px;
+    margin-right: 20px;
+    margin-top: 30px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    vertical-align: center;
+    line-height: 270px;
+    font-size: larger;
+}
+.cartaprincipalpasteleria:hover{
+    transform:scale(1.1);
+    box-shadow: 0 0 10px rgb(58, 6, 36);
+    background-color: rgb(223, 17, 137);
+}
+/*fin cartas*/
+
+/*footer*/
+footer{
+    background-color: rgb(18,47,96);
+    height: 50px;
+    text-align: center;
+    vertical-align: center;
+    line-height: 50px;
+}
+.textofooter{
+    display: flex;
+    text-align: center;
+}
