@@ -17,6 +17,7 @@ header {
     box-sizing: border-box;
     color: rgb(18,47,96);
     font-family: 'Josefin Sans', sans-serif;
+    z-index: 1;
 }
 /*Cosas Header*/
 .header-icon {
@@ -157,8 +158,11 @@ header {
 /* barra nav*/
 .navegador{
     font-family: sans-serif ;
-    height: 156px;
+    height: 157px;
+    width: 1500px;
     background-color: #333;
+    position: fixed;
+    z-index: 0;
 }
 ul {
     list-style-type: none;
@@ -190,19 +194,23 @@ ul {
     background-color: rgb(9, 68, 170);
   }
 /*fin barra nav*/
-
-/*productos*/
+.flexprod{
+    display: flex;
+}
 .producto{
+    z-index: -1;
+    position: absolute;
     font-family: 'Poppins', sans-serif;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     height: 210px;
     width: 1300px;
-    margin: 15px;
     padding: 10px;
+    display: flex;
 }
 .producto:hover{
     box-shadow: 0 0  10px black;
     transform:scale(1);
+    z-index: -1;
 }
 .imagenproducto{
     height: 190px;
@@ -228,4 +236,8 @@ footer{
 .textofooter{
     display: flex;
     text-align: center;
+}
+
+.publicidad{
+    z-index: -2;
 }
