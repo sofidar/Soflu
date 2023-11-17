@@ -191,48 +191,31 @@ ul {
   }
 /*fin barra nav*/
 
-/*cartas*/
-.contenedorcartasprincipal{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.cartaprincipal{
-    background-color: rgb(18,47,96);
-    height: 270px ;
-    width: 270px;
-    margin-right: 20px;
-    margin-top: 30px;
-    display: inline-block;
+/*productos*/
+.producto{
     font-family: 'Poppins', sans-serif;
-    color: white;
-    text-align: center;
-    vertical-align: center;
-    line-height: 270px;
+    background-color: white;
+    height: 210px;
+    width: 1300px;
+    margin: 15px;
+    padding: 10px;
 }
-.cartaprincipal:hover{
-    transform:scale(1.1);
-    box-shadow: 0 0 10px rgb(3, 17, 43);
+.producto:hover{
+    box-shadow: 0 0  10px black;
+    transform:scale(1);
 }
-.cartaprincipalpasteleria{
-    background-color: rgb(18,47,96);
-    height: 270px ;
-    width: 270px;
-    margin-right: 20px;
-    margin-top: 30px;
-    display: inline-block;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    vertical-align: center;
-    line-height: 270px;
+.imagenproducto{
+    height: 190px;
+    width: 190px;
+    margin-right: 5px;
 }
-.cartaprincipalpasteleria:hover{
-    transform:scale(1.1);
-    box-shadow: 0 0 10px rgb(58, 6, 36);
-    background-color: rgb(223, 17, 137);
+.infoproducto{
+vertical-align: top;
+text-align: left;
 }
-/*fin cartas*/
+
+
+/*fin productos*/
 
 /*footer*/
 footer{
