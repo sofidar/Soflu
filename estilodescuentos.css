@@ -206,8 +206,14 @@ footer{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     color: white;
+  }
+  .ilogo{
+    height: 40px;
+  }
+  .inst{
+    display: flex;
   }
   /*fin footer*/
 
