@@ -232,6 +232,7 @@ footer{
     text-align: center;
     background-color: white;
     width:300px;
+    height: 400px;
     margin:30px auto ;
     padding:15px;
     
@@ -244,7 +245,8 @@ footer{
 }
 
 .card img{
-    width: 290px;
+    width: 280px;
+    height: 280px;
     margin-left: 0px;
     margin-top: 0px;
     border-radius: 5px;
@@ -252,4 +254,18 @@ footer{
 
 h3{
     font-size: 25px;
+}
+.card-title{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+.precio{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(25, 25, 143);
+}
+.card-text{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
 }
