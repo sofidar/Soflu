@@ -163,7 +163,7 @@ header {
 .navegador{
     font-family: sans-serif ;
     height: 156px;
-    width: 1500px;
+    width: 2000px;
     background-color: #333;
     position: fixed;
     z-index: 0;
@@ -210,16 +210,16 @@ ul {
 }
 .cartaprincipal{
     background-color: rgb(18,47,96);
-    height: 270px ;
-    width: 270px;
-    margin-right: 20px;
+    height: 370px ;
+    width: 370px;
+    margin-right: 10px;
     margin-top: 30px;
     display: inline-block;
     font-family: 'Poppins', sans-serif;
     color: white;
     text-align: center;
     vertical-align: center;
-    line-height: 270px;
+    line-height: 370px;
 }
 .cartaprincipal:hover{
     transform:scale(1.1);
@@ -228,15 +228,15 @@ ul {
 .cartaprincipalpasteleria{
     background-color: rgb(18,47,96);
     font-family: 'Pacifico', cursive;
-    height: 270px ;
-    width: 270px;
+    height: 370px ;
+    width: 370px;
     margin-right: 20px;
     margin-top: 30px;
     display: inline-block;
     color: white;
     text-align: center;
     vertical-align: center;
-    line-height: 270px;
+    line-height: 370px;
     font-size: larger;
 }
 .cartaprincipalpasteleria:hover{
@@ -348,11 +348,19 @@ footer{
   align-items: center;
   justify-content: space-evenly;
   color: white;
+  font-family: 'Poppins', sans-serif;
+  z-index: 99;
 }
+
 .ilogo{
   height: 40px;
 }
-.inst{
+.instagram{
+  height: 40px;
   display: flex;
+}
+.textoig{
+  margin-top: 6px;
+  margin-left: 3px;
 }
 /*fin footer*/

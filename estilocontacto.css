@@ -20,7 +20,7 @@ header {
     box-sizing: border-box;
     color: rgb(18,47,96);
     font-family: 'Josefin Sans', sans-serif;
-    z-index: 1;
+    z-index: 3;
 }
 /*Cosas Header*/
 .header-icon {
@@ -162,10 +162,10 @@ header {
 .navegador{
     font-family: sans-serif ;
     height: 156px;
-    width: 1500px;
+    width: 2000px;
     background-color: #333;
     position: fixed;
-    z-index: 0;
+    z-index: 2;
 }
 ul {
     list-style-type: none;
@@ -198,46 +198,81 @@ ul {
   }
 /*fin barra nav*/
 
-/*cartas*/
-.contenedorcartasprincipal{
+/*sobre nosotros*/
+.nosotros{
     display: flex;
-    justify-content: center;
+    margin-top: 55px;
+}
+
+.texto{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    margin: 30px;
+    width: 600px;
+
+}
+
+.titulo{
+   color:rgb(18,47,96);;
+}
+
+.video{
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 300px;
+}
+
+.contacto{
+    font-family: 'Poppins', sans-serif;
+    height: 300px;
+    margin-top: 100px;
+    text-align: center;
+    font-size:x-large;
+ }
+
+ .textocuadro{
+    padding: 10px;
+    background-color:rgb(18,47,96); 
+    color: #fff;
+ }
+ .clientes{
+    display: block;
     align-items: center;
-}
-.cartaprincipal{
+    margin-left: 650px;
+    margin-bottom: 50px;
+ }
+ .tituloop{
+    color: rgb(18,47,96); ;
+ }
+
+
+/*fin sobre nosotros*/
+
+/*footer*/
+footer{
+    margin: 0;
+    height: 70px;
     background-color: rgb(18,47,96);
-    height: 270px ;
-    width: 270px;
-    margin-right: 20px;
-    margin-top: 30px;
-    display: inline-block;
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    text-align: center;
-    vertical-align: center;
-    line-height: 270px;
-}
-.cartaprincipal:hover{
-    transform:scale(1.1);
-    box-shadow: 0 0 10px rgb(3, 17, 43);
-}
-.cartaprincipalpasteleria{
-    background-color: rgb(18,47,96);
-    height: 270px ;
-    width: 270px;
-    margin-right: 20px;
-    margin-top: 30px;
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
     color: white;
     font-family: 'Poppins', sans-serif;
-    text-align: center;
-    vertical-align: center;
-    line-height: 270px;
-}
-.cartaprincipalpasteleria:hover{
-    transform:scale(1.1);
-    box-shadow: 0 0 10px rgb(58, 6, 36);
-    background-color: rgb(223, 17, 137);
-}
-/*fin cartas*/
+    z-index: 99;
+  }
+
+  .ilogo{
+    height: 40px;
+  }
+.instagram{
+    height: 40px;
+    display: flex;
+  }
+  .textoig{
+    margin-top: 6px;
+    margin-left: 3px;
+  }
+  /*fin footer*/
 
